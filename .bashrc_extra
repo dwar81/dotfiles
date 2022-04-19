@@ -1,0 +1,16 @@
+# .bashrc
+# Navigation based Aliases
+alias la="ll -a"
+alias wsp="cd /vagrant/workspace"
+
+# Git based Aliases
+alias gits="git status"
+alias gita="git add -A ."
+alias gitc="git commit"
+alias gitca="git commit --amend"
+alias gitba="git branch -a"
+alias gitco="git checkout"
+alias gitcom="git checkout main"
+alias gitcod="git checkout development"
+alias gitpl="git pull"
+alias gitps="git push"
